@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@bootstrap-vue-next/nuxt": "^0.1.0",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/apollo": "^5.0.0-alpha.6",
+    "@types/node": "^18",
+    "@vue/apollo-composable": "^4.0.0-beta.7",
+    "bootstrap": "^5.3.0",
+    "bootstrap-vue-next": "^0.9.8",
+    "nuxt": "^3.5.2",
+    "unplugin-vue-components": "^0.25.1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.15"
+  }
+}
