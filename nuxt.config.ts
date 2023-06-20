@@ -18,16 +18,8 @@ export default defineNuxtConfig({
 ],
   apollo: {
     autoImports: true,
-    // authType: 'Bearer',
-    // authHeader: 'Authorization',
-    // tokenStorage: 'cookie',
-    // proxyCookies: true,
     clients: {
       default: "./src/graphql/default-config.ts"
-      // default: {
-      //   tokenName: 'token',
-      //   httpEndpoint: process.env.API_URL as string
-      // }
     },
   },
 })
